@@ -1,0 +1,32 @@
+# Web Framework
+Flask==2.3.3
+
+# WSGI Server
+gunicorn==21.2.0
+
+# Database (example for PostgreSQL)
+psycopg2-binary==2.9.7
+
+# Environment Variables Management
+python-dotenv==1.0.0
+
+# Security (for session management, CSRF protection)
+Flask-WTF==1.1.1
+
+# CORS Support (for API access)
+Flask-CORS==4.0.0
+
+# HTTP Client (for external API calls)
+requests==2.31.0
+
+# JSON Handling
+jsonschema==4.19.0
+
+# Optional: Database ORM (SQLAlchemy)
+# SQLAlchemy==2.0.20
+
+# Optional: Caching (Redis)
+# redis==4.6.0
+
+# Optional: Task Queue (Celery)
+# celery==5.3.1
